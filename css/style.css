@@ -69,8 +69,8 @@ body img {
 /* Giving a background-color to the nav container. */
 
 nav {
-    margin: -13px -125px;
-    padding: 38px;
+    margin: 0;
+    padding: 0;
 }
 
 a.navbar-brand {
@@ -82,25 +82,17 @@ a.navbar-brand {
     color: #fff;
 }
 
-#logo1 a {
+#logo a {
     float: left;
     display: initial;
 }
-.logo2 a img {
-    width: 220px;
-    height: 180px;
-    margin: -18px -6px;
-}
 
-#logo1 a img {
-    height: 200px!important;
-    margin: -70px -90px!important;
-    /* padding: 15px 0px; */
-    /* max-width: 271px; */
+#logo a img {
+    height: 60px;
 }
 
 @media (max-width: 600px) {
-    #logo1 a img {
+    #logo a img {
         height: 40px;
     }
     ol.breadcrumb {
@@ -201,7 +193,7 @@ nav ul ul {
 }
 
 
-
+}
 nav ul ul ul {
     left: 122px;
     transition: all .5s;
@@ -250,7 +242,7 @@ li>a:only-child:after {
 /* Media Queries
 --------------------------------------------- */
 @media all and (max-width:992px) {
-    #logo1 {
+    #logo {
         display: block;
         padding: 0;
         width: 100%;
@@ -277,7 +269,7 @@ li>a:only-child:after {
         text-decoration: none;
         border: none;
         float: right;
-        background-color: #2DA286;
+        background-color: #feb213;
         color: #fff;
         cursor: pointer !important;
         margin-bottom: 0;
