@@ -88,7 +88,10 @@ a.navbar-brand {
 }
 
 #logo a img {
-    height: 60px;
+    height: 200px!important;
+    margin: -70px -90px!important;
+    /* padding: 15px 0px; */
+    /* max-width: 271px; */
 }
 
 @media (max-width: 600px) {
