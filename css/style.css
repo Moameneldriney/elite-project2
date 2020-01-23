@@ -97,6 +97,9 @@ a.navbar-brand {
 #logo a img {
     height: 60px;
 }
+.footer-grids .logo2 a img {
+    width: 150px;
+}
 
 @media (max-width: 600px) {
     #logo a img {
