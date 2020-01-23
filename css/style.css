@@ -86,6 +86,13 @@ a.navbar-brand {
     float: left;
     display: initial;
 }
+#logo .logo1 img {
+   
+        width: 250px;
+        height: 200px;
+        margin: -90px;
+    
+}
 
 #logo a img {
     height: 60px;
@@ -99,7 +106,9 @@ a.navbar-brand {
         display: none!important;
     }
 }
-
+.breadcrumb {
+    margin: 50px 30px;
+}
 
 /* Since we'll have the "ul li" "float:left"
  * we need to add a clear after the container. */
@@ -127,7 +136,7 @@ nav ul {
 }
 
 ul.menu {
-    margin-top: 1.4em;
+    margin-top: 2.4em;
 }
 
 
@@ -1242,11 +1251,17 @@ section.hand-crafted p {
     background-color: transparent;
 }
 ol.breadcrumb {
-    margin: 0;
-    padding: 0;
+    margin: 32px -45px;
     /* border-top: solid 2px #f07e44; */
     /* width: 228px; */
     /* padding-top: 5px; */
+}
+.top_w3pvt_main .nav_w3pvt nav .wthree-w3ls ul .menu  {
+    /* padding: 20px; */
+
+}
+.top_w3pvt_main .nav_w3pvt nav .wthree-w3ls .toggle ul .menu {
+    /* padding: 22px; */
 }
 ol.breadcrumb li {
     padding: 0;
