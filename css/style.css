@@ -86,6 +86,11 @@ a.navbar-brand {
     float: left;
     display: initial;
 }
+.logo2 a img {
+    width: 220px;
+    height: 180px;
+    margin: -18px -6px;
+}
 
 #logo1 a img {
     height: 200px!important;
