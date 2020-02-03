@@ -486,7 +486,7 @@ li>a:only-child:after {
 #slide1:checked~div .fake-radio .radio-btn:nth-child(1),
 #slide2:checked~div .fake-radio .radio-btn:nth-child(2),
 #slide3:checked~div .fake-radio .radio-btn:nth-child(3) {
-    background: #feac00;
+    background: #2DA286 ;
 }
 .radio-btn {
     width: 10px;
@@ -521,7 +521,7 @@ li>a:only-child:after {
 @keyframes bullet {
     0%,
     33.32333333333334% {
-        background: #feac00;
+        background: #2DA286;
     }
     
     33.333333333333336%,
@@ -2527,4 +2527,11 @@ footer {
     z-index: 1;
     top: -6px;
     right: 0px;
+}
+/* new things of moamen */
+.top-buttons .mx-auto .text-center .mt-md-5 .mt-3   .btn .more .mr-2  .zorar       {
+    visibility: visible;
+    animation-duration: 2s;
+    animation-name: bounceInUp;
+    margin: 56PX 590PX;
 }
