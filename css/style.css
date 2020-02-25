@@ -194,7 +194,7 @@ li.social-icons a span {
 nav ul ul {
     display: none;
     position: absolute;
-    top: 29px;
+    top: 30px;
     padding: 10px;
     background: #fff;
     z-index: 999;
@@ -205,7 +205,7 @@ nav ul ul {
 }
 
 
-}
+
 nav ul ul ul {
     left: 122px;
     transition: all .5s;
@@ -250,7 +250,107 @@ nav ul ul ul li {
 li>a:only-child:after {
     content: '';
 }
+/* -------------------------------------------------------------------------------- */
 
+
+nav ul  .drop2 {
+    display: none;
+    position: absolute;
+    top: 29px;
+    padding: 10px;
+    background: #fff;
+    z-index: 999;
+    border: 1px solid #ddd;
+    /* left: 300px; */
+    text-align: left;
+    border-radius: 4px;
+}
+
+
+
+nav ul .drop2 {
+    left: 300px;
+    top: 30px;
+    transition: all .5s;
+    
+}
+
+/* Display Dropdowns on Hover */
+nav ul .drop2 li:hover>ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul   .drop2  li {
+    width: max-content;
+    float: none;
+    display: list-item;
+    position: relative;
+    width: 100%;
+}
+nav ul    .drop2 li:not(:last-child) {
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 5px;
+}
+nav ul  .drop2 li a {
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul .drop2 li {
+    position: relative;
+    /* top: -60px; */
+    /* has to be the same number as the "width" of "nav ul ul li" */
+    /* left: 170px; */
+}
+
+/* Change ' +' in order to change the Dropdown symbol */
+li>a:only-child:after {
+    content: '';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------- */
 /* Media Queries
 --------------------------------------------- */
 @media all and (max-width:992px) {
