@@ -88,8 +88,8 @@ a.navbar-brand {
 }
 #logo .logo1 img {
    
-        width: 250px;
-        height: 200px;
+        width: 190px;
+        height: 175px;
         margin: -90px;
     
 }
@@ -194,7 +194,7 @@ li.social-icons a span {
 nav ul ul {
     display: none;
     position: absolute;
-    top: 30px;
+    top: 25px;
     padding: 10px;
     background: #fff;
     z-index: 999;
@@ -282,7 +282,7 @@ nav ul  .drop2 {
 
 nav ul .drop2 {
     left: 300px;
-    top: 30px;
+    top: 25px;
     transition: all .5s;
     
 }
