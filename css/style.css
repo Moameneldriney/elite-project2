@@ -656,7 +656,7 @@ li>a:only-child:after {
 
 /* background images for banner */
 .banner-w3pvt-1 {
-    background: url(../images/banner1.jpg) no-repeat top;
+    background: url(../images/banner1.jpeg) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2604,8 +2604,8 @@ svg:not(:root) {
     padding-bottom: 6px;
 }
 .img_info_des>img {
-    min-height: 600px;
-    max-height: 600px;
+    min-height: auto;
+    max-height: max-content;
 }
 footer {
     position: relative;
