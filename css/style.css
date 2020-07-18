@@ -849,6 +849,9 @@ p.para-w3pvt {
 .banner_bottom {
     background: #f7f7f7;
 }
+/* .sub-tittle{
+    padding: 0px 37px;
+} */
 p.sub-tittle {
     font-size: 1.1em;
     font-weight: 400;
@@ -2600,9 +2603,9 @@ svg:not(:root) {
     list-style: square;
     margin-left: 30px;
 }
-.ul_for_list>li {
-    padding-bottom: 6px;
-}
+/* .ul_for_list>li {
+   
+} */
 .img_info_des>img {
     min-height: auto;
     max-height: max-content;
@@ -2622,4 +2625,21 @@ footer {
     animation-duration: 2s;
     animation-name: bounceInUp;
     margin: 56PX 590PX;
+}
+.pd-left{
+    padding-left: 10px;
+}
+.pdfet{
+    margin-left: 50px;
+}
+.pdfet li {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.manged{
+    padding: 0px 18px;
+}
+.comp{
+    padding: 0px 35px;
 }
